@@ -1,0 +1,33 @@
+.a-card{
+    height: 60px;
+    background-color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--blue);
+    text-align: center;
+    border: 1px solid var(--blue);
+}
+
+.a-card:hover{
+    border-bottom: 3px solid var(--blue);
+}
+
+
+@media screen and (max-width: 480px) {
+    .a-card{
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .a-card{
+        height: 110px;
+        gap: 1rem;
+    }
+}

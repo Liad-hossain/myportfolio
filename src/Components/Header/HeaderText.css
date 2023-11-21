@@ -1,0 +1,12 @@
+.h-text{
+    font-family: 'Poppins', sans-serif;
+    color: var(--darkBlue);
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    padding: 0.4rem 0.3rem;
+}
+
+.h-text:hover{
+    border: 2px dotted var(--darkBlue);
+}

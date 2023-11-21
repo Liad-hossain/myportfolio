@@ -1,0 +1,107 @@
+.touch{
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+}
+
+.touch-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.touch-text1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--blue);
+    margin-bottom: 0.5rem;
+}
+
+.touch-text2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color: var(--lightOrange);
+    margin-top: 0.5rem;
+}
+
+.touch-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.touch-form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    background-color: white;
+}
+
+.user{
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+    border: 2px solid orange;
+    background-color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.user_text{
+    width: 300px;
+    height: 100px;
+    border: 2px solid orange;
+    border-radius: 4px;
+    background-color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.touch-button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: orange;
+    border: none;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.touch-button:hover{
+    background-color: var(--white);
+    color: orange;
+    border: 2px solid orange;
+    animation-name: broad;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes broad {
+    100%{
+        width: 7rem;
+        letter-spacing: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 827px) {
+    .user{
+        margin-left: 1rem;
+        width: 250px;
+    }
+    .user_text{
+        margin-left: 1rem;
+        width: 250px;
+    }
+}

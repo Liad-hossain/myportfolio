@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.i{
+    display: flex;
+    height: 580px;
+}
+
+
+.i-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+
+.i-title-1{
+    font-size: 2rem;
+}   
+
+.i-title-2{
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+.i-name{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Water Brush', cursive;
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--darkGray);
+}
+
+.i-box{
+    height: 80px;
+    overflow: hidden;
+    background: none;
+}
+
+.i-box-wrapper{
+    height: 100%;
+    animation-name: move;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.i-box-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--sealmyGreen);
+    text-align: center;
+}
+
+@keyframes move {
+    33%{
+        transform: translateY(-80px);
+    }
+    66%{
+        transform: translateY(-160px);
+    }
+    100%{
+        transform: translateY(-240px);
+    }
+}
+
+.i-desc{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.i-link{
+    text-decoration: none;
+}
+
+.i-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid var(--skyBlue);
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 2.5rem;
+}
+
+.i-button:hover{
+    animation-name: stretch;
+    animation-duration: .2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes stretch {
+    100%
+    {
+        background-color: var(--skyBlue);
+        width: 195px;
+        letter-spacing: 0.2rem;
+        color: black;
+    }
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+    object-fit: cover;
+}
+
+.i-bg{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: var(--forestGreen);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.i-right-img{
+    position: absolute;
+    height: 100%;
+    width: 110%;
+}
+
+@media screen and (max-width: 900px) {
+    .i{
+        flex-direction: column-reverse;
+        height: 1160px;
+    }
+}
+

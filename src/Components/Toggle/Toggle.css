@@ -1,0 +1,18 @@
+.t{
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    width: 35px;
+    border-radius: 20px;
+    border: 2px solid var(--brightOrange);
+    position: absolute;
+}
+
+.t-button{
+    background-color: var(--darkBlue);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}

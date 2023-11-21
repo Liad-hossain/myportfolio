@@ -1,0 +1,143 @@
+.hon{
+    height: 410px;
+    display: flex;
+    margin-top: 10rem;
+}
+
+.hon-title{
+    background-color: var(--lightBlack);
+    color: var(--white);
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.hon-wrapper{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.hon-section{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.hon-master{
+    flex: 1;
+    display: flex;
+    margin-right: 3rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.master-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    background-color: var(--purple);
+    border-radius: 50%;
+    border: 3px dotted var(--darkBlue);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.hon-5star{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 3rem;
+    
+}
+
+.star-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    background-color: var(--brightOrange);
+    border-radius: 50%;
+    border: 3px dotted var(--darkBlue);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.hon-site{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.site-codeforces{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.link-codeforces{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    padding: 2px 2px;
+    border: 2px solid var(--darkBlue);
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--darkBlue);
+}
+
+
+.link-codeforces:hover{
+    background-color: var(--skyBlue);
+}
+
+.link-codechef{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    padding: 2px 2px;
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--darkBlue);
+}
+
+.link-codechef:hover{
+    background-color: var(--skyBlue);
+}
+
+
+.site-codechef{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 3rem;
+}
+

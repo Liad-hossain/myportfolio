@@ -1,0 +1,100 @@
+.contact{
+    height: 200px;
+    background-color: var(--lightGray);
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-text{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    margin-top: 3rem;
+    color: var(--brightOrange);
+}
+
+.call{
+    flex: 1;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-icon{
+    
+    margin-right: 0.3rem;
+}
+
+.gmail{
+    flex: 1;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.gmail-img{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.4rem;
+    margin-left: 3rem;
+    background-color: var(--brightOrange);
+}
+
+.contact-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-text{
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 3rem;
+    color: var(--brightOrange);
+}
+
+.right-icon{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .call{
+        flex-direction: column;
+    }
+
+    .gmail{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .right-text{
+        margin-top: 4.6rem;
+    }
+}

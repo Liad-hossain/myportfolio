@@ -1,0 +1,48 @@
+.s{
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.s-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--lightBlack);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    position: absolute;
+}
+
+.s-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 900px)
+{
+    .s{
+        height: 560px;
+    }
+}
+
+@media screen and (max-width: 613px) {
+    .s{
+        height: 950px;
+    }
+}
+

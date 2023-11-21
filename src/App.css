@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+:root{
+    --lightBlue: #8bcde0;
+    --skyBlue: #20e4ff;
+    --blue: #355c7d;
+    --lightPink: #d19ba4;
+    --lightGray: #909090;
+    --darkGray: #6c5b7b;
+    --softPink: #ffc2c1;
+    --waterColor: #a8a7a7;
+    --lightBlack: #474747;
+    --blueNight: #333745;
+    --fernGreen: #4F7942;
+    --forestGreen: #228B22;
+    --mossGreen: #8A9A5B;
+    --oliveGreen: #808000;
+    --pistachio: #93C572;
+    --sageGreen: #8A9A5B;
+    --brightOrange: #FFAC1C;
+    --bronge: #CD7F32;
+    --butterScotch: #E3963E;
+    --screaminGreen: #66FF66;
+    --sealmyGreen: #299617;
+    -springFrost: #87FF2A;
+    --brightGreen: #66ff00;
+    --backGround: #EFEFEF;
+    --white: whitesmoke;
+    --purple: #B026FF;
+    --darkBlue: #00008B;
+    --lightOrange: #FFA500;
+
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+    background-color: var(--backGround);
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*{
+    margin: 0;
+    padding: 0;
 }

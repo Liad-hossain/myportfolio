@@ -1,10 +1,3 @@
-![1](https://github.com/Liad-hossain/myportfolio/assets/73576013/1e262438-049d-491b-9ee4-f92bbe3b89c8)
-![2](https://github.com/Liad-hossain/myportfolio/assets/73576013/38242fed-90ed-402c-a9cb-fae50a2f2562)
-![3](https://github.com/Liad-hossain/myportfolio/assets/73576013/db524bfa-9008-430c-b7b4-3abc844dea26)
-![4](https://github.com/Liad-hossain/myportfolio/assets/73576013/cf7383fc-0f46-475c-af4f-c83d503e6d8b)
-![5](https://github.com/Liad-hossain/myportfolio/assets/73576013/62c9bc35-d81d-4cc7-8b65-caf38ef04b75)
-![6](https://github.com/Liad-hossain/myportfolio/assets/73576013/7175eada-a540-463b-984a-dc5387af8492)
-![7](https://github.com/Liad-hossain/myportfolio/assets/73576013/d9702893-eb6a-4b6f-820c-b3f05805e049)
 
 # Getting Started with Create React App
 

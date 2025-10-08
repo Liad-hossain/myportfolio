@@ -16,8 +16,8 @@ const Honor = () => {
     return (
         <div className='hon' id='Honor'>
             <motion.div 
-            initial={{left: '-5vw'}}
-            whileInView={{left: '44vw'}}
+            initial={{left: '-5%'}}
+            whileInView={{left: '44%'}}
             transition={transition}
             style={{backgroundColor: darkMode && rs.getPropertyValue('--white'), color: darkMode && rs.getPropertyValue('--lightBlack')}}
             className="hon-title">Honors</motion.div>

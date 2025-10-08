@@ -22,8 +22,8 @@ const Experience = () => {
     <div 
     className='e' id='Experience'>
         <motion.div 
-        initial={{right: '-5vw'}}
-        whileInView={{right: '43vw'}}
+        initial={{right: '-5%'}}
+        whileInView={{right: '43%'}}
         transition={transition}
         className="e-title" style={{backgroundColor: darkMode && rs.getPropertyValue('--white'), color: darkMode && rs.getPropertyValue('--lightBlack')}}>Experience</motion.div>
         <div className="e-handle">

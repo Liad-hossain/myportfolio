@@ -18,8 +18,8 @@ const Achievement = () => {
     return (
         <div className='a' id='Achievement'>
             <motion.div 
-            initial={{left: '-5vw'}}
-            whileInView={{left: '42.5vw'}}
+            initial={{left: '-5%'}}
+            whileInView={{left: '42.5%'}}
             transition={transition}
             style={{backgroundColor: darkMode && rs.getPropertyValue('--white'), color: darkMode && rs.getPropertyValue('--lightBlack')}}
             className="a-title">Achievements</motion.div>

@@ -13,7 +13,7 @@ const Header = () => {
         <div className="header-right">
             {
                 headerData.map((item=>(
-                    <HeaderText key={item.id} text={item.text} to={item.to} />
+                    <HeaderText key={item.id} title={item.title} to={item.to} logo={item.logo}/>
                 )))
             }
         </div>

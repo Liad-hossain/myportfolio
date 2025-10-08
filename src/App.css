@@ -20,7 +20,7 @@
     --butterScotch: #E3963E;
     --screaminGreen: #66FF66;
     --sealmyGreen: #299617;
-    -springFrost: #87FF2A;
+    --springFrost: #87FF2A;
     --brightGreen: #66ff00;
     --backGround: #EFEFEF;
     --white: whitesmoke;
@@ -28,7 +28,6 @@
     --darkBlue: #00008B;
     --lightOrange: #FFA500;
 
-    width: 100%;
 }
 
 .app{

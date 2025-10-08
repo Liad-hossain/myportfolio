@@ -18,8 +18,8 @@ const Project = () => {
   return (
     <div className='pr' id='Project'>
         <motion.div 
-        initial={{right: '-5vw'}}
-        whileInView={{right: '43.5vw'}}
+        initial={{right: '-5%'}}
+        whileInView={{right: '43.5%'}}
         transition={transition}
         className="pr-title" style={{backgroundColor: darkMode && rs.getPropertyValue('--white'), color: darkMode && rs.getPropertyValue('--lightBlack')}}>Projects</motion.div>
         <div className="pr-section">

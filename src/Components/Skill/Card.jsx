@@ -9,8 +9,9 @@ const Card = (props) => {
   const r=document.querySelector(':root');
   const rs=getComputedStyle(r);
   return (
-    <div className='c' style={{backgroundColor: darkMode && rs.getPropertyValue('--white')}}>
-        {props.text}
+    <div className='s-card' style={{backgroundColor: darkMode && rs.getPropertyValue('--white')}}>
+      <img src={props.logo} alt="" className="s-card-logo" />
+      <p className='s-card-title' style={{color: darkMode && rs.getPropertyValue('--lightBlack')}}>{props.title}</p>
     </div>
   )
 }

@@ -1,48 +1,72 @@
 .s{
-    height: 464px;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-bottom: 100px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
     padding: 0;
 }
 
-.s-title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 140px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: var(--lightBlack);
-    color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 0.15rem;
-    position: absolute;
-}
-
-.s-card{
+.s-title-comp{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 7rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    align-items: center;
     gap: 1rem;
 }
 
-@media screen and (max-width: 900px)
-{
-    .s{
-        height: 560px;
-    }
+.s-title-text{
+    color: var(--lightBlack);
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
 }
 
-@media screen and (max-width: 613px) {
-    .s{
-        height: 950px;
-    }
+.s-title-logo{
+    width: 50px;
+    height: 50px;
 }
 
+.s-underline{
+    width: 100%;
+    height: 3px;
+    background-color: var(--lightBlack);
+    margin-bottom: 2rem;
+}
+
+.skill-comp-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.skill-comp{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-comp-header{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+
+.skill-comp-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.skill-comp-title{
+    color: blue;
+    font-size: 20px;
+    letter-spacing: 0.04rem;
+}
+
+.s-card-wrapper{
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    flex-wrap: wrap;
+}

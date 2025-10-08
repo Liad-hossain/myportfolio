@@ -1,4 +1,19 @@
-.h-text{
+.h-comp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.h-comp-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.h-comp-text{
     font-family: 'Poppins', sans-serif;
     color: var(--darkBlue);
     font-weight: 600;
@@ -7,6 +22,6 @@
     padding: 0.4rem 0.3rem;
 }
 
-.h-text:hover{
+.h-comp-wrapper:hover{
     border: 2px dotted var(--darkBlue);
 }

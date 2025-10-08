@@ -1,4 +1,5 @@
 import Intro from "./Components/Intro/Intro"
+import Education from "./Components/Education/Education"
 import Skill from "./Components/Skill/Skill"
 import Experience from "./Components/Experience/Experience";
 import Honor from "./Components/Honor/Honor";
@@ -20,6 +21,7 @@ function App() {
     <div className="app" style={{backgroundColor: darkMode && rs.getPropertyValue('--lightBlack')}}>
       <Header/>
       <Intro/>
+      <Education/>
       <Skill/>
       <Experience/>
       <Honor/>

@@ -1,10 +1,9 @@
 import React from 'react'
-import { headerData } from './headerData'
 import "./HeaderText.css"
 import { useContext } from 'react'
 import { ThemeContext } from '../../Context'
 import { Link } from 'react-scroll/modules'
-import { hover } from '@testing-library/user-event/dist/hover'
+
 
 const HeaderText = (props) => {
   const theme=useContext(ThemeContext);
@@ -14,9 +13,12 @@ const HeaderText = (props) => {
   const rs=getComputedStyle(r);
 
   return (
-    <div className='h-text' style={{color: darkMode && rs.getPropertyValue('--skyBlue'), borderColor: darkMode && rs.getPropertyValue('--skyBlue')}}>
+    <div className='h-comp-wrapper' style={{borderColor: darkMode && rs.getPropertyValue('--skyBlue')}}>
       <Link spy={true} to={props.to} smooth={true} activeClass='activeClass'>
-        {props.text}
+        <div className='h-comp'>
+          <img src={props.logo} alt="" className="h-comp-logo" />
+          <p className='h-comp-text' style={{color: darkMode && rs.getPropertyValue('--skyBlue')}}>{props.title}</p>
+        </div>
       </Link>
     </div>
   )

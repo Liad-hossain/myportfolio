@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Education.css"
 import { useContext } from 'react';
 import { ThemeContext } from '../../Context';

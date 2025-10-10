@@ -1,4 +1,3 @@
-import React from 'react'
 import "./HeaderText.css"
 import { useContext } from 'react'
 import { ThemeContext } from '../../Context'

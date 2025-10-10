@@ -1,7 +1,7 @@
 import Intro from "./Components/Intro/Intro"
 import Education from "./Components/Education/Education"
+import WorkExperience from "./Components/WorkExperience/WorkExperience";
 import Skill from "./Components/Skill/Skill"
-import Experience from "./Components/Experience/Experience";
 import Honor from "./Components/Honor/Honor";
 import Project from "./Components/Project/Project";
 import Achievement from "./Components/Achievement/Achievement";
@@ -22,8 +22,8 @@ function App() {
       <Header/>
       <Intro/>
       <Education/>
+      <WorkExperience/>
       <Skill/>
-      <Experience/>
       <Honor/>
       <Project/>
       <Achievement/>

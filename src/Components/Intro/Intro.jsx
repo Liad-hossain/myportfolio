@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import "./Intro.css";
 import { ThemeContext } from "../../Context";
 import Me from "../../img/profile.jpeg";
-import Resume from "../../img/Md_Liad_Hossain_resume.pdf";
-import { titles } from "./titles";
+import { introData } from "./introData";
+
 
 const Intro = () => {
   const theme = useContext(ThemeContext);
@@ -28,10 +28,10 @@ const Intro = () => {
           </span>
         </div>
         <br />
-        <span className="i-name">MD Liad Hossain</span>
+        <span className="i-name">{introData.name}</span>
         <div className="i-box">
           <div className="i-box-wrapper">
-            {titles.map((item) => (
+            {introData.titles.map((item) => (
               <p
                 className="i-box-item"
                 style={{ color: darkMode && rs.getPropertyValue("--skyBlue") }}
@@ -45,12 +45,10 @@ const Intro = () => {
           className="i-desc"
           style={{ color: darkMode && rs.getPropertyValue("--white") }}
         >
-          A passionate software engineer with a solid backgroud in competitive
-          programming, who has a great understanding of data structures and
-          algorithms, also loves to solve problems, learn new technologies and implement innovative ideas together.
+          {introData.description}
         </div>
 
-        <a href={Resume} download className="i-link">
+        <a href={introData.resume} download className="i-link">
           <div
             className="i-button"
             style={{ color: darkMode && rs.getPropertyValue("--white") }}

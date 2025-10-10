@@ -1,44 +1,49 @@
-.edu-card-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.edu-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 1.5rem;
 }
 
-.edu-card{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5rem;
+.edu-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
 }
 
-.edu-card-logo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.edu-card-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
-.edu-card-comp{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0.05rem;
+.edu-card-comp {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
 }
 
-.edu-card-name{
-    font-size: 35px;
-    font-weight: 540;
+.edu-card-name {
+  font-size: 35px;
+  font-weight: 540;
 }
 
-.edu-card-degree{
-    font-size: 25px;
-    font-weight: 500;
+.edu-card-degree {
+  font-size: 25px;
+  font-weight: 500;
 }
 
-.edu-card-underline{
-    width: 70%;
-    height: 1px;
-    background-color: var(--lightBlack);
-    margin-bottom: 2rem;
+.edu-card-underline {
+  height: 1px;
+  background-color: var(--lightBlack);
+  margin-bottom: 2rem;
 }

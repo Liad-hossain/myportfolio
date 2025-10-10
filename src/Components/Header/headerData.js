@@ -1,6 +1,7 @@
 import User from '../../img/user.png'
 import Education from '../../img/education.png'
 import Skills from '../../img/skills.png'
+import Experience from '../../img/work_experience.png'
 
 
 export const headerData=[
@@ -18,14 +19,15 @@ export const headerData=[
     },
     {
         id: 3,
-        title: 'Skills',
-        to: 'Skill',
-        logo: Skills,
+        title: 'Experience',
+        to: 'WorkExperience',
+        logo: Experience,
     },
     {
         id: 4,
-        title: 'Experience',
-        to: 'Experience',
+        title: 'Skills',
+        to: 'Skill',
+        logo: Skills,
     },
     {
         id: 5,

@@ -1,4 +1,5 @@
-# Live Portfolio URL: [https://liadhossain.netlify.app/]
+# Live Portfolio URL: [See my profile](https://liadhossain.netlify.app/)
+
 
 
 # Getting Started with Create React App

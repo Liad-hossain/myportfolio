@@ -40,7 +40,7 @@ export const workData = {
                 logo: '',
                 value: "Alice Labs Pte. Ltd."
             },
-            description: {
+            company_description: {
                 type: 'string',
                 logo: '',
                 value: "Software Development"
@@ -73,7 +73,6 @@ export const workData = {
                 {
                     id: 1,
                     title: 'Core Product',
-                    description: '',
                     workedItems: [
                         {
                             id: 1,
@@ -108,7 +107,6 @@ export const workData = {
                 {
                     id: 2,
                     title: 'Workflow Automation',
-                    description: '',
                     workedItems: [
                         {
                             id: 1,
@@ -163,7 +161,7 @@ export const workData = {
                 logo: '',
                 value: "Obby Team"
             },
-            description: {
+            company_description: {
                 type: 'string',
                 logo: '',
                 value: "Marketing Services",

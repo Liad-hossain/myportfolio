@@ -1,37 +1,33 @@
-import React from 'react'
-import "./Achievement.css"
-import { motion } from 'framer-motion'
-import { useContext } from 'react'
-import { ThemeContext } from '../../Context'
-import { achievementData } from './achievementData'
-import AchievementCard from './AchievementCard'
+import "./Achievement.css";
+import { useContext } from "react";
+import { ThemeContext } from "../../Context";
+import { achievementData } from "./achievementData";
+import AchievementCard from "./AchievementCard";
 
 const Achievement = () => {
-    const theme=useContext(ThemeContext);
-    const darkMode=theme.state.darkMode;
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
-    const r=document.querySelector(':root');
-    const rs=getComputedStyle(r);
 
-    const transition={duration: 2,type: 'spring'};
+  return (
+    <div className="ach" id="Achievement">
+      <div className='ach-title-comp'>
+          <img src={achievementData.logo} alt='' className='ach-title-logo'/>
+          <div className="ach-title-text" style={{color: darkMode && 'skyblue'}}>{achievementData.title}</div>
+      </div>
+      <div className='ach-underline' style={{backgroundColor: darkMode && 'whitesmoke'}}></div>
+      <div className="ach-cards-section">
+        {achievementData.achievements.map((item) => (
+          <AchievementCard
+            key={item.id}
+            logo={item.logo}
+            title={item.title}
+            description={item.description}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
 
-    return (
-        <div className='a' id='Achievement'>
-            <motion.div 
-            initial={{left: '-5%'}}
-            whileInView={{left: '42.5%'}}
-            transition={transition}
-            style={{backgroundColor: darkMode && rs.getPropertyValue('--white'), color: darkMode && rs.getPropertyValue('--lightBlack')}}
-            className="a-title">Achievements</motion.div>
-            <div className="a-section">
-            {
-                achievementData.map((item=>(
-                    <AchievementCard key={item.id} text={item.text} link={item.link} />
-                )))
-            }
-            </div>
-        </div>
-    )
-}
-
-export default Achievement
+export default Achievement;

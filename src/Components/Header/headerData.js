@@ -2,6 +2,7 @@ import User from '../../img/user.png'
 import Education from '../../img/education.png'
 import Skills from '../../img/skills.png'
 import Experience from '../../img/work_experience.png'
+import Achievements from '../../img/achievement.png'
 
 
 export const headerData=[
@@ -31,18 +32,19 @@ export const headerData=[
     },
     {
         id: 5,
+        title: 'Achievements',
+        to: 'Achievement',
+        logo: Achievements,
+    },
+    {
+        id: 6,
         title: 'Honors',
         to: 'Honor',
     },
     {
-        id: 6,
+        id: 7,
         title: 'Projects',
         to: 'Project',
-    },
-    {
-        id: 7,
-        title: 'Achievements',
-        to: 'Achievement',
     },
     {
         id: 8,

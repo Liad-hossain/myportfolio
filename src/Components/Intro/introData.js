@@ -24,6 +24,6 @@ export const introData={
             title: 'CODEFORCES CANDIDATE MASTER',
         }
     ],
-    description: "A passionate software engineer with a solid background in competitive programming, who has a great understanding of data structures and algorithms, also loves to solve problems, learn new technologies and implement innovative ideas together.",
+    description: "A passionate software engineer with a solid background in competitive programming, have a great understanding of data structures and algorithms, also love to solve problems, learn new technologies and implement innovative ideas together.",
     resume: Resume,
 }

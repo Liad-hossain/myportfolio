@@ -1,33 +1,84 @@
-.a-card{
-    height: 60px;
-    background-color: white;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: var(--blue);
-    text-align: center;
-    border: 1px solid var(--blue);
+.ach-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--lightBlack);
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  border: 1px solid var(--blue);
+  overflow: hidden;
+  gap: 2rem;
+  padding: 2rem 2rem;
+  color: var(--blue);
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-.a-card:hover{
-    border-bottom: 3px solid var(--blue);
+.ach-card-wrapper:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15),
+    0 10px 10px -5px rgba(0, 0, 0, 0.1);
+  border-color: var(--blue);
 }
 
-
-@media screen and (max-width: 480px) {
-    .a-card{
-        height: 90px;
-    }
+.ach-card-comp {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2rem;
 }
 
-@media screen and (max-width: 280px) {
-    .a-card{
-        height: 110px;
-        gap: 1rem;
-    }
+.ach-card-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.ach-card-obj {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 18px;
+  font-weight: 390;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.05rem;
+}
+
+.ach-card-obj img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+}
+
+.ach-card-array {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.ach-card-title-value {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6rem;
+}
+
+.ach-card-url {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  color: var(--lightBlack);
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid;
+  border-radius: 5px;
 }

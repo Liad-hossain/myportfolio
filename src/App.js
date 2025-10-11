@@ -2,7 +2,7 @@ import Intro from "./Components/Intro/Intro"
 import Education from "./Components/Education/Education"
 import WorkExperience from "./Components/WorkExperience/WorkExperience";
 import Skill from "./Components/Skill/Skill"
-import Honor from "./Components/Honor/Honor";
+import ProblemSolving from "./Components/ProblemSolving/ProblemSolving";
 import Project from "./Components/Project/Project";
 import Achievement from "./Components/Achievement/Achievement";
 import Contact from "./Components/Contact/Contact";
@@ -25,7 +25,7 @@ function App() {
       <WorkExperience/>
       <Skill/>
       <Achievement/>
-      <Honor/>
+      <ProblemSolving/>
       <Project/>
       <Touch/>
       <Contact/>

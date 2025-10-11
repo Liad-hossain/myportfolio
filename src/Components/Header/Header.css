@@ -1,11 +1,16 @@
 .header{
-    height: 15vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-left: 8rem;
-    margin-right: 7rem;
+    padding-left: 8rem;
+    padding-right: 7rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--backGround);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
 }
 
 .header-left{

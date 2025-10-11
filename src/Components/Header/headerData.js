@@ -3,6 +3,7 @@ import Education from '../../img/education.png'
 import Skills from '../../img/skills.png'
 import Experience from '../../img/work_experience.png'
 import Achievements from '../../img/achievement.png'
+import ProblemSolving from '../../img/problem-solving.png'
 
 
 export const headerData=[
@@ -38,8 +39,9 @@ export const headerData=[
     },
     {
         id: 6,
-        title: 'Honors',
-        to: 'Honor',
+        title: 'Problem Solving',
+        to: 'ProblemSolving',
+        logo: ProblemSolving,
     },
     {
         id: 7,

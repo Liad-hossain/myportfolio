@@ -20,9 +20,7 @@ const Achievement = () => {
         {achievementData.achievements.map((item) => (
           <AchievementCard
             key={item.id}
-            logo={item.logo}
-            title={item.title}
-            description={item.description}
+            {...item}
           />
         ))}
       </div>

@@ -1,4 +1,4 @@
-.ach-card-wrapper {
+.prob-card-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,14 +19,14 @@
   cursor: pointer;
 }
 
-.ach-card-wrapper:hover {
+.prob-card-wrapper:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15),
     0 10px 10px -5px rgba(0, 0, 0, 0.1);
   border-color: var(--blue);
 }
 
-.ach-card-comp {
+.prob-card-comp {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -35,13 +35,13 @@
   justify-content: center;
 }
 
-.ach-card-logo {
+.prob-card-logo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
-.ach-card-obj {
+.prob-card-obj {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -52,33 +52,86 @@
   line-height: 1.4rem;
 }
 
-.ach-card-obj img {
+.prob-card-obj img {
   height: 20px;
   width: 20px;
   object-fit: cover;
 }
 
-.ach-card-array {
+.prob-card-array {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
 
-.ach-card-title-value {
+.prob-card-title-value{
   font-size: 22px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   line-height: 1.6rem;
 }
 
-.ach-card-url {
+.prob-card-title-value-dark {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6rem;
+}
+
+.prob-card-url {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
   color: var(--lightBlack);
   text-decoration: none;
   padding: 0.3rem 0.5rem;
-  border: 1px solid;
   border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid var(--skyBlue);
+
+}
+
+.prob-card-url:hover{
+    animation-name: stretch;
+    animation-duration: .2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes stretch {
+    100%
+    {
+        background-color: var(--skyBlue);
+        padding: 0.5rem 0.8rem;
+        letter-spacing: 0.02rem;
+        color: var(--lightBlack);
+    }
+}
+
+.prob-card-max_rating-value-dark, .prob-card-problems_solved-value-dark {
+    font-size: 18px;
+    font-weight: 500;
+    color: skyblue;
+}
+
+
+.prob-card-contests-value-dark, .prob-card-online_contests-value-dark, .prob-card-onsite_contests-value-dark {
+    font-size: 18px;
+    font-weight: 500;
+    color: skyblue;
+}
+
+.prob-card-max_rating-value, .prob-card-problems_solved-value {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--lightBlack);
+}
+
+
+.prob-card-contests-value, .prob-card-online_contests-value, .prob-card-onsite_contests-value {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--lightBlack);
 }

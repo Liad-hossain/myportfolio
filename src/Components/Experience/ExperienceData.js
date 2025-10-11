@@ -4,7 +4,7 @@ export const experienceData = [
     {
         id: 1,
         title: 'CodeForces',
-        problem: '2100+',
+        problem: '2300+',
         link: 'https://codeforces.com/profile/noctambulant?f0a28=1'
     },
     {
@@ -40,7 +40,7 @@ export const experienceData = [
     {
         id: 7,
         title: 'Uva',
-        problem: '10',
+        problem: '10+',
         link: 'https://uhunt.onlinejudge.org/id/1052648'
     },
     {

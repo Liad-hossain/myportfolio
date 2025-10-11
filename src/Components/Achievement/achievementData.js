@@ -1,4 +1,13 @@
 import Achievement from '../../img/achievement.png'
+import ICPC from '../../img/icpc.svg'
+import RUET_IUPC from '../../img/ruet_iupc.jpg'
+import BUET_IUPC from '../../img/buet_iupc.jpg'
+import AUST_IUPC from '../../img/aust_iupc.jpg'
+import HackerCup from '../../img/hackercup.png'
+import Codeforces from '../../img/codeforces.png'
+import Codechef from '../../img/codechef.jpg'
+import NCPC from '../../img/ncpc.jpg'
+
 
 export const achievementData = {
     title: "Achievements",
@@ -6,25 +15,11 @@ export const achievementData = {
     achievements: [
         {
             id: 1,
-            logo: '',
+            logo: ICPC,
             title: {
                 type: 'string',
                 logo: '',
-                value: 'ICPC Dhaka Regional, 2023 - 43rd Position',
-            },
-            description: {
-                type: 'string',
-                logo: '',
-                value: 'It was the last ICPC Dhaka Regional for me. Our team secured 43rd position in that year. Our team name was KUET_ByteBlitz',
-            }
-        },
-        {
-            id: 2,
-            logo: '',
-            title: {
-                type: 'string',
-                logo: '',
-                value: 'ICPC Asia West Continent Final, 2022 - 54th Position',
+                value: 'ICPC Asia West Continent Finalist, 2022',
             },
             description: {
                 type: 'string',
@@ -33,8 +28,8 @@ export const achievementData = {
             },
         },
         {
-            id: 3,
-            logo: '',
+            id: 2,
+            logo: ICPC,
             title: {
                 type: 'string',
                 logo: '',
@@ -47,22 +42,22 @@ export const achievementData = {
             },
         },
         {
-            id: 4,
-            logo: '',
+            id: 3,
+            logo: NCPC,
             title: {
                 type: 'string',
                 logo: '',
-                value: 'ICPC Asia Dhaka Regional, 2021 - 54th Position',
+                value: 'NCPC 2023 - 13th Position',
             },
             description: {
                 type: 'string',
                 logo: '',
-                value: 'First ICPC Dhaka Regional for me. Our team secured 54th position. Team Name: KUET_Blaziken',
+                value: 'It was the first and last contest with that team ans also it was my last contest in my carrier. Our team secured 13th position. TeamName: KUET_Capricious',
             },
         },
         {
-            id: 5,
-            logo: '',
+            id: 4,
+            logo: RUET_IUPC,
             title: {
                 type: 'string',
                 logo: '',
@@ -75,8 +70,22 @@ export const achievementData = {
             },
         },
         {
+            id: 5,
+            logo: ICPC,
+            title: {
+                type: 'string',
+                logo: '',
+                value: 'ICPC Dhaka Regional, 2023 - 43rd Position',
+            },
+            description: {
+                type: 'string',
+                logo: '',
+                value: 'It was the last ICPC Dhaka Regional for me. Our team secured 43rd position in that year. Our team name was KUET_ByteBlitz',
+            }
+        },
+        {
             id: 6,
-            logo: '',
+            logo: BUET_IUPC,
             title: {
                 type: 'string',
                 logo: '',
@@ -90,7 +99,7 @@ export const achievementData = {
         },
         {
             id: 7,
-            logo: '',
+            logo: AUST_IUPC,
             title: {
                 type: 'string',
                 logo: '',
@@ -104,21 +113,21 @@ export const achievementData = {
         },
         {
             id: 8,
-            logo: '',
+            logo: ICPC,
             title: {
                 type: 'string',
                 logo: '',
-                value: 'NCPC 2023 - 13th Position',
+                value: 'ICPC Asia Dhaka Regional, 2021 - 54th Position',
             },
             description: {
                 type: 'string',
                 logo: '',
-                value: 'It was the first and last contest with that team ans also it was my last contest in my carrier. Our team secured 13th position. TeamName: KUET_Capricious',
+                value: 'First ICPC Dhaka Regional for me. Our team secured 54th position. Team Name: KUET_Blaziken',
             },
         },
         {
             id: 9,
-            logo: '',
+            logo: Codechef,
             title: {
                 type: 'string',
                 logo: '',
@@ -132,7 +141,7 @@ export const achievementData = {
         },
         {
             id: 10,
-            logo: '',
+            logo: Codeforces,
             title: {
                 type: 'string',
                 logo: '',
@@ -141,7 +150,49 @@ export const achievementData = {
             description: {
                 type: 'string',
                 logo: '',
-                value: 'Secured 151st position in Educational Codeforces Round 150 (Div-2) among 15k+ participants',
+                value: 'Secured 151st position in Educational Codeforces Round 150 (Div-2) among 15k+ participants.',
+            },
+        },
+        {
+            id: 11,
+            logo: Codeforces,
+            title: {
+                type: 'string',
+                logo: '',
+                value: 'Educational Codeforces Round 153 (Div-2) - 216th Position',
+            },
+            description: {
+                type: 'string',
+                logo: '',
+                value: 'Secured 216th position in Educational Codeforces Round 153 (Div-2) among 16k+ participants.',
+            },
+        },
+        {
+            id: 12,
+            logo: Codeforces,
+            title: {
+                type: 'string',
+                logo: '',
+                value: 'Educational Codeforces Round 986 (Div-2) - 235th Position',
+            },
+            description: {
+                type: 'string',
+                logo: '',
+                value: 'Secured 235th position in Codeforces Round 986 (Div-2) among 10k+ participants.',
+            },
+        },
+        {
+            id: 13,
+            logo: HackerCup,
+            title: {
+                type: 'string',
+                logo: '',
+                value: 'Meta Hacker Cup: 2023(Round-2) Rank: 1568',
+            },
+            description: {
+                type: 'string',
+                logo: '',
+                value: 'Participated in Meta Hacker Cup second time and reached to Round-2. Secured 1568th position among 20k+ participants and won a T-shirt from Meta.',
             },
         }
     ]

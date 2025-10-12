@@ -4,6 +4,7 @@ import Skills from '../../img/skills.png'
 import Experience from '../../img/work_experience.png'
 import Achievements from '../../img/achievement.png'
 import ProblemSolving from '../../img/problem-solving.png'
+import Projects from '../../img/projects.png'
 
 
 export const headerData=[
@@ -47,6 +48,7 @@ export const headerData=[
         id: 7,
         title: 'Projects',
         to: 'Project',
+        logo: Projects,
     },
     {
         id: 8,

@@ -16,7 +16,6 @@
   color: var(--blue);
   text-align: center;
   transition: all 0.3s ease;
-  cursor: pointer;
 }
 
 .ach-card-wrapper:hover {
@@ -50,6 +49,7 @@
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 0.05rem;
   line-height: 1.4rem;
+  color: black;
 }
 
 .ach-card-obj img {

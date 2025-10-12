@@ -8,7 +8,6 @@
   border-radius: 12px;
   overflow: hidden;
   transition: all 0.3s ease;
-  cursor: pointer;
 }
 
 .exp-card-wrapper:hover {

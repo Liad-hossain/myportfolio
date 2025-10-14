@@ -5,6 +5,7 @@ import Experience from '../../img/work_experience.png'
 import Achievements from '../../img/achievement.png'
 import ProblemSolving from '../../img/problem-solving.png'
 import Projects from '../../img/projects.png'
+import Email from '../../img/envelope.png'
 
 
 export const headerData=[
@@ -54,5 +55,6 @@ export const headerData=[
         id: 8,
         title: 'Contact',
         to: 'Contact',
+        logo: Email,
     }
 ];

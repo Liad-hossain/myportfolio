@@ -1,0 +1,101 @@
+.contact-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+  justify-content: center;
+  color: var(--lightBlack);
+  border-radius: 12px;
+  overflow: hidden;
+  gap: 2rem;
+  padding: 2rem;
+  color: var(--blue);
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+.contact-card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card-obj {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  align-items: center;
+}
+
+.contact-card-obj img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+}
+
+.contact-card-array {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-card-description-value {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.contact-card-description-value-dark {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.contact-card-url {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--lightBlack);
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+
+.contact-card-url:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15),
+    0 10px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card-email-value {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.contact-card-right {
+  align-items: center;
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+}

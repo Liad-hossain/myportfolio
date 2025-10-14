@@ -1,100 +1,36 @@
 .contact{
-    height: 200px;
-    background-color: var(--lightGray);
-    display: flex;
-    flex-direction: row;
-}
-
-.contact-left{
-    flex: 1;
+    margin-left: 8rem;
+    margin-right: 7rem;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.left-text{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    margin-bottom: 1rem;
-    font-size: 25px;
-    margin-top: 3rem;
-    color: var(--brightOrange);
-}
-
-.call{
-    flex: 1;
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.95rem;
-    font-weight: 500;
-    align-items: center;
-    justify-content: center;
-}
-
-.call-icon{
-    
-    margin-right: 0.3rem;
-}
-
-.gmail{
-    flex: 1;
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.95rem;
-    font-weight: 500;
-    align-items: center;
-    justify-content: center;
-}
-
-.gmail-img{
-    width: 1.3rem;
-    height: 1.3rem;
-    margin-right: 0.4rem;
-    margin-left: 3rem;
-    background-color: var(--brightOrange);
-}
-
-.contact-right{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.right-text{
-    flex: 1;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 25px;
-    margin-top: 3rem;
-    color: var(--brightOrange);
-}
-
-.right-icon{
-    flex: 1;
-    display: flex;
-    flex-direction: row;
+    margin-top: 2rem;
     gap: 1rem;
 }
 
-@media screen and (max-width: 480px) {
-    .call{
-        flex-direction: column;
-    }
-
-    .gmail{
-        flex-direction: column;
-    }
+.contact-title-comp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;;
 }
 
-@media screen and (max-width: 480px) {
-    .right-text{
-        margin-top: 4.6rem;
-    }
+.contact-title-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.contact-title-text{
+    color: var(--lightBlack);
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.contact-underline{
+    width: 100%;
+    height: 3px;
+    background-color: var(--lightBlack);
+    margin-bottom: 2rem;
 }

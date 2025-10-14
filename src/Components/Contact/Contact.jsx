@@ -1,28 +1,24 @@
-import React from 'react'
 import "./Contact.css"
-import Icon from './Icon'
-import { iconData } from './iconData'
-import Call from '@iconscout/react-unicons/icons/uil-calling'
-import Gmail from '../../img/gmail.jpg'
+import { useContext } from 'react';
+import { ThemeContext } from '../../Context';
+import { contactData } from './contactData';
+import ContactCard from './ContactCard';
 
 const Contact = () => {
+  const theme=useContext(ThemeContext);
+  const darkMode=theme.state.darkMode;
+
   return (
     <div className='contact' id='Contact'>
-        <div className="contact-left">
-            <div className="left-text">My Contact</div>
-            <span className='call'><Call className='call-icon' size='1.1rem'/>  +880-1983289584</span>
-            <span className='gmail'><img src={Gmail} alt="" className='gmail-img'/> liad1809008@gmail.com</span>
+        <div className='contact-title-comp'>
+            <img src={contactData.logo} alt='' className='contact-title-logo'/>
+            <div className="contact-title-text" style={{color: darkMode &&'skyblue'}}>{contactData.title}</div>
         </div>
-        <div className="contact-right">
-          <div className="right-text">Follow Me On</div>
-            <div className="right-icon">
-              {iconData.map((item=>(
-                <Icon key={item.id} icon={item.icon} link={item.link} />
-              )))}
-            </div>
-          </div>
-        </div>
+        <div className='contact-underline' style={{backgroundColor: darkMode && 'whitesmoke'}}></div>
+        <ContactCard {...contactData}/>
+    </div>
   )
 }
 
-export default Contact
+
+export default Contact;

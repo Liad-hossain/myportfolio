@@ -1,3 +1,4 @@
+import Header from "./Components/Header/Header";
 import Intro from "./Components/Intro/Intro"
 import Education from "./Components/Education/Education"
 import WorkExperience from "./Components/WorkExperience/WorkExperience";
@@ -9,8 +10,7 @@ import Contact from "./Components/Contact/Contact";
 import "./App.css"
 import { useContext } from "react";
 import { ThemeContext } from "./Context";
-import Touch from "./Components/Touch/Touch";
-import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const theme=useContext(ThemeContext);
@@ -27,8 +27,8 @@ function App() {
       <Achievement/>
       <ProblemSolving/>
       <Project/>
-      <Touch/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

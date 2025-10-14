@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--lightBlack);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+}

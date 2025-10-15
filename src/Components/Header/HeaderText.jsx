@@ -12,9 +12,9 @@ const HeaderText = (props) => {
   const rs=getComputedStyle(r);
 
   return (
-    <div className='h-comp-wrapper' style={{borderColor: darkMode && rs.getPropertyValue('--skyBlue')}}>
+    <div className='h-comp-wrapper'>
       <Link spy={true} to={props.to} smooth={true} activeClass='activeClass'>
-        <div className='h-comp'>
+        <div className='h-comp' style={{outlineColor: darkMode && rs.getPropertyValue('--skyBlue')}}>
           <img src={props.logo} alt="" className="h-comp-logo" />
           <p className='h-comp-text' style={{color: darkMode && rs.getPropertyValue('--skyBlue')}}>{props.title}</p>
         </div>

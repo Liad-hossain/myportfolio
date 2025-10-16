@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-    gap: 1rem;
 }
 
 .exp-title-comp{
@@ -30,7 +29,7 @@
 
 .exp-underline{
     width: 100%;
-    height: 3px;
+    height: 2px;
     background-color: var(--lightBlack);
     margin-bottom: 2rem;
 }
@@ -39,5 +38,14 @@
     .exp{
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+
+    .exp-title-text{
+        font-size: 40px;
+    }
+
+    .exp-title-logo{
+        width: 40px;
+        height: 40px;
     }
 }

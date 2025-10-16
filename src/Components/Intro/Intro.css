@@ -139,10 +139,12 @@
     margin-top: 15%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     .i{
         flex-direction: column-reverse;
         height: 1160px;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 }
 

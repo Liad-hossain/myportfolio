@@ -15,7 +15,6 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-
 .contact-card-left {
   display: flex;
   flex-direction: column;
@@ -100,13 +99,44 @@
   height: 300px;
 }
 
-@media (max-width: 1100px){
-  .contact-card-email-value{
+@media (max-width: 1100px) {
+  .contact-card-email-value {
     font-size: 22px;
   }
 
-  .contact-card-right{
+  .contact-card-right {
     width: 220px;
     height: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-card-wrapper {
+    grid-template-columns: auto;
+  }
+
+  .contact-card-right {
+    order: 1;
+  }
+
+  .contact-card-left {
+    order: 2;
+  }
+
+  .contact-card-email-value {
+    font-size: 20px;
+  }
+
+  .contact-card-right {
+    width: 150px;
+    height: 150px;
+  }
+
+  .contact-card-description-value {
+    font-size: 18px;
+  }
+
+  .contact-card-description-value-dark {
+    font-size: 18px;
   }
 }

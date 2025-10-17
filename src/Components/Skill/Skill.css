@@ -84,8 +84,12 @@
         width: 40px;
         height: 40px;
     }
-    
+
     .skill-comp-wrapper{
         grid-template-columns: auto;
+    }
+
+    .s-title-comp{
+        gap: 0.6rem;
     }
 }

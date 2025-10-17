@@ -47,8 +47,8 @@
 
 @media (max-width: 1100px) {
     .ach{
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 
     .ach-title-text{
@@ -58,5 +58,9 @@
     .ach-title-logo{
         width: 40px;
         height: 40px;
+    }
+
+    .ach-title-comp{
+        gap: 0.6rem;
     }
 }

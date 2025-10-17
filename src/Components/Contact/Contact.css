@@ -37,8 +37,8 @@
 
 @media (max-width: 1100px) {
     .contact{
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 
     .contact-title-text{
@@ -48,5 +48,9 @@
     .contact-title-logo{
         width: 40px;
         height: 40px;
+    }
+
+    .contact-title-comp{
+        gap: 0.6rem;
     }
 }

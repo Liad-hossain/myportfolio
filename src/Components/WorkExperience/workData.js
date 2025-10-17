@@ -80,7 +80,7 @@ export const workData = {
                         },
                         {
                             id: 2,
-                            value: 'Integrated Clevertap to send whatsapp templates campigns through our platform'
+                            value: 'Integrated Clevertap to send whatsapp templates campaigns through our platform'
                         },
                         {
                             id: 3,
@@ -96,7 +96,7 @@ export const workData = {
                         },
                         {
                             id: 6,
-                            value: 'Integrated Whatsapp Flow and implemented all necessary steps needed to send flow in whatsapp and also done flow sending with Whatsapp template'
+                            value: "Integrated Whatsapp Flow and implemented all necessary steps needed to send flow in customer's whatsapp and also done flow sending with Whatsapp template"
                         },
                         {
                             id: 7,

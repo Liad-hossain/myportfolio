@@ -49,4 +49,13 @@
         margin-left: 3rem;
         margin-right: 3rem;
     }
+
+    .project-title-text{
+        font-size: 40px;
+    }
+
+    .project-title-logo{
+        width: 40px;
+        height: 40px;
+    }
 }

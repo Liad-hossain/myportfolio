@@ -9,3 +9,10 @@
     font-size: 25px;
     font-family: "Josefin Sans", sans-serif;
 }
+
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 18px;
+    }
+}

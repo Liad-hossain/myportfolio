@@ -135,3 +135,10 @@
     font-weight: 500;
     color: var(--lightBlack);
 }
+
+@media (max-width: 1100px){
+  .prob-card-logo{
+    width: 120px;
+    height: 120px;
+  }
+}

@@ -44,9 +44,19 @@
     align-items: center;
 }
 
+
 @media (max-width: 1100px) {
     .ach{
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+
+    .ach-title-text{
+        font-size: 40px;
+    }
+
+    .ach-title-logo{
+        width: 40px;
+        height: 40px;
     }
 }

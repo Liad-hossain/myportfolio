@@ -123,3 +123,10 @@
     font-size: 1.05rem;
     border: 1px solid var(--blue);
 }
+
+@media (max-width: 1100px){
+  .project-card-logo{
+    width: 120px;
+    height: 120px;
+  }
+}

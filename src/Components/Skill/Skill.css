@@ -75,6 +75,16 @@
         margin-left: 3rem;
         margin-right: 3rem;
     }
+
+    .s-title-text{
+        font-size: 40px;
+    }
+
+    .s-title-logo{
+        width: 40px;
+        height: 40px;
+    }
+    
     .skill-comp-wrapper{
         grid-template-columns: auto;
     }
